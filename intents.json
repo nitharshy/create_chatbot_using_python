@@ -14,9 +14,22 @@
          "responses": ["My pleasure", "You're Welcome"],
          "context": [""]
         },
-        {"tag": "query",
-         "patterns": ["What is Simplilearn?"],
-         "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform "],
-         "context": [""]
-        } 
+        {
+            "tag": "registration",
+            "patterns": ["How do I register?", "What is the registration process?", "Can you tell me about the registration?", "How to enroll?", "Registration process at OUSL"],
+            "responses": ["To register at the Open University of Sri Lanka, visit the registration section on our official website and follow the instructions provided."],
+            "context": [""]
+        },
+        {
+            "tag": "add_drop_period",
+            "patterns": ["What is the add/drop period?", "When can I add or drop courses?", "Add/drop period details", "Tell me about the add/drop period at OUSL", "How to add or drop courses?"],
+            "responses": ["The add/drop period at the Open University of Sri Lanka allows you to modify your course enrollments. Please check the academic calendar on our website for specific dates and procedures."],
+            "context": [""]
+        },
+        {
+            "tag": "query",
+            "patterns": ["What is Simplilearn?"],
+            "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform"],
+            "context": [""]
+        }
     ]}
